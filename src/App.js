@@ -1,20 +1,12 @@
-import Clients from "./component/clients";
-import Features from "./component/features";
-import Footer from "./component/footer";
-import Header from "./component/header";
-import Hero from "./component/hero";
-import Pricing from "./component/pricing";
+import style from "./assets/css/style.css";
+
+import { Footer, Header, Body } from "./component/molecule";
 
 const App = () => {
   return (
-    <div className="body-wrap">
+    <div className="body">
       <Header />
-      <main className="site-content">
-        <Hero />
-        <Clients />
-        <Features />
-        <Pricing />
-      </main>
+      <Body />
       <Footer />
     </div>
   );

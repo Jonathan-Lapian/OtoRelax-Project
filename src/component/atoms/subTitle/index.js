@@ -1,8 +1,8 @@
 const Sub = () => {
   return (
-    <View>
-      <Text>Sub</Text>
-    </View>
+    <div>
+      <p>Sub</p>
+    </div>
   );
 };
 
