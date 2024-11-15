@@ -1,7 +1,13 @@
+import { Home, About, Review, Services, Contact, Meet } from "../../section";
 const Body = () => {
   return (
     <div>
-      <p>Body</p>
+      <Home />
+      <About />
+      <Review />
+      <Services />
+      <Contact />
+      <Meet />
     </div>
   );
 };

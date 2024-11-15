@@ -71,7 +71,7 @@ const App = () => {
             onMouseEnter={() => setHoveredButton("gallery")}
             onMouseLeave={() => setHoveredButton(null)}
           >
-            GALLERY
+            REVIEW
           </button>
           <button
             onClick={() => scrollToSection(reviewRef)}
@@ -79,7 +79,7 @@ const App = () => {
             onMouseEnter={() => setHoveredButton("review")}
             onMouseLeave={() => setHoveredButton(null)}
           >
-            REVIEW
+            SERVICES
           </button>
           <button
             onClick={() => scrollToSection(contactRef)}
@@ -116,7 +116,7 @@ const App = () => {
 };
 
 const sectionStyle = {
-  padding: "100px 0",
+  padding: "10px 0",
   background: "#f0f0f0",
   borderBottom: "1px solid #ccc",
 };
